@@ -1,0 +1,232 @@
+_type: export
+__export_format: 4
+__export_date: 2022-10-06T11:08:44.633Z
+__export_source: insomnia.desktop.app:v2022.5.1
+resources:
+  - _id: req_7582119ad2304750afea4f6989360e98
+    parentId: wrk_ec1d1f50fa584426be7151c7c458365c
+    modified: 1665054370211
+    created: 1665050123898
+    url: http://localhost:8080/calcul
+    name: Calcul
+    description: ""
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"profession":"comptable"
+        	
+        }
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: application/json
+        id: pair_7d6cc2ccb65d4de58dde86fa29805455
+    authentication:
+      type: bearer
+      token: Bearer
+        eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoib3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTYzMjIzMzY3N30.0AdgwHtGOG79hybSRUlH-nUNZ3jwAADD7GianLOlJkU
+      disabled: false
+    metaSortKey: -1648081947419.625
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: false
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: wrk_ec1d1f50fa584426be7151c7c458365c
+    parentId: null
+    modified: 1641401029944
+    created: 1641401029944
+    name: test visa
+    description: ""
+    scope: collection
+    _type: workspace
+  - _id: req_24e3748b178d45a8a489a1aa3b52afc3
+    parentId: wrk_ec1d1f50fa584426be7151c7c458365c
+    modified: 1665053946930
+    created: 1665045996900
+    url: http://localhost:8080/upload
+    name: fileUpload
+    description: ""
+    method: POST
+    body:
+      mimeType: multipart/form-data
+      params:
+        - id: pair_4c0190a8f1064292b0305a82e25af523
+          name: file
+          value: ""
+          description: ""
+          type: file
+          multiline: null
+          fileName: /Users/ouedraogoaristide/Downloads/sample2.json
+    parameters: []
+    headers:
+      - name: Content-Type
+        value: multipart/form-data
+        id: pair_7d6cc2ccb65d4de58dde86fa29805455
+    authentication:
+      type: bearer
+      token: Bearer
+        eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoib3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTYzMjIzMzY3N30.0AdgwHtGOG79hybSRUlH-nUNZ3jwAADD7GianLOlJkU
+      disabled: false
+    metaSortKey: -1648069734964.25
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: false
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: req_450b9fcef9ff4d9dafc2991144f94818
+    parentId: wrk_ec1d1f50fa584426be7151c7c458365c
+    modified: 1665048396809
+    created: 1665048382453
+    url: http://localhost:8080/users
+    name: users
+    description: ""
+    method: GET
+    body: {}
+    parameters: []
+    headers: []
+    authentication:
+      type: bearer
+      token: Bearer
+        eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJzb2Z0dGVrSldUIiwic3ViIjoib3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxb3VlZHJhb2dvYXJpc0BnbWFpbC5jb20yODg1MzUxIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9VU0VSIl0sImlhdCI6MTYzMjIzMzY3N30.0AdgwHtGOG79hybSRUlH-nUNZ3jwAADD7GianLOlJkU
+      disabled: false
+    metaSortKey: -1648057522508.875
+    isPrivate: false
+    settingStoreCookies: true
+    settingSendCookies: true
+    settingDisableRenderRequestBody: false
+    settingEncodeUrl: false
+    settingRebuildPath: true
+    settingFollowRedirects: global
+    _type: request
+  - _id: env_8c9164c78e080e14bbbe27c6b5ad766c257a725e
+    parentId: wrk_ec1d1f50fa584426be7151c7c458365c
+    modified: 1641401029958
+    created: 1641401029958
+    name: Base Environment
+    data: {}
+    dataPropertyOrder: null
+    color: null
+    isPrivate: false
+    metaSortKey: 1641401029958
+    _type: environment
+  - _id: jar_8c9164c78e080e14bbbe27c6b5ad766c257a725e
+    parentId: wrk_ec1d1f50fa584426be7151c7c458365c
+    modified: 1665047353044
+    created: 1641401029962
+    name: Default Jar
+    cookies:
+      - key: _abck
+        value: 3EAF10453054147A8C7D0DDD71AC5A5D~-1~YAAQFb0vFxgZSlN/AQAAy8WzfQcx/S08qtszT9ZgzwY9cM7Ytj9xaIAEaNTjv52FYzzpziHk0pp4uUZnbZiZIwd5alZyhjtKwc4/78yFg9Au/IEyMM8UkSY0qi8+/vlPHdC0McS9SknyPiQtg1S0SG75LHaTowLFOLp+aYz0ASKk2uFSJnATL7sYYXNFxf21tw4t/xMCIQ4Mwu5iLx+q98ph8GojxxgguEOT0YNy6TWbFsHzxbyGRUHD+8q2S5eB7uvEhs+f7FkLB61UdRMBKfBDCMvZQYjiw5UGuo8G8mCRriPVxTShiEa3oUeeZBQApslNrAvqZeOyTwW8+wn1PbqQdDWMQhB4To7k0wuLqtZgHTs1X3HCjZVQTHS8cDAIzdnI/UN7XoAlMWIL85ox4Hk=~-1~-1~-1
+        expires: 2023-03-12T10:36:47.000Z
+        maxAge: 31536000
+        domain: ngenius-payments.com
+        path: /
+        secure: true
+        hostOnly: false
+        creation: 2022-02-25T09:04:57.042Z
+        lastAccessed: 2022-03-12T10:36:46.335Z
+        id: "8867839876730503"
+      - key: bm_sz
+        value: 871FF1AC29441FBC64FFCA3987A59255~YAAQFb0vFxkZSlN/AQAAy8WzfQ+z3Oi3DjDRlAtInLN/aPMc69TGLSdZKjLSHlPGsaIH99RfJpfK/ekPC8dXog/KUSYKYvtxa8frx2dKtTbROWKlktQADOWC0r1tUn6iIEFIwslJ/4aH7VMa7G2Z6Oro4vh1wi5+SXWiI5t8liO9giTy/HgetZ7R6GP3oVS4WJ/ey+kN0sfL3PWz3yqyyJBnuR6mP3FEKK9bCpcDbI8SUWo+rSLPDieIppPKVswoTtl/Y4NwRW0Pvar5eazkWtk9HyArZKyPCXbtSQoBwjHBWPu1K4rvvRD/5JTA~4601401~3618358
+        expires: 2022-03-12T14:36:47.000Z
+        maxAge: 14400
+        domain: ngenius-payments.com
+        path: /
+        hostOnly: false
+        creation: 2022-02-25T09:04:57.044Z
+        lastAccessed: 2022-03-12T10:36:46.336Z
+        id: "7353065871317201"
+      - key: BIGipServerIdentifi-Prod-Web-TemplateEngineWeb.app~Identifi-Prod-Web-TemplateEngineWeb_pool
+        value: "!2EC+wkPPy3I7BXdIUwJnl1BClR8ZP8Yi695u07919R3EUEZIQhDdF+FbVs0as2zxXx87jM\
+          UgBJCokg=="
+        domain: authentication.cardinalcommerce.com
+        path: /
+        secure: true
+        httpOnly: true
+        hostOnly: true
+        creation: 2022-03-17T09:09:23.893Z
+        lastAccessed: 2022-04-06T16:27:48.655Z
+        id: "47631170174091175"
+      - key: TS0148bf0b
+        value: 018d594778bc29a62581b5d2df8bf4efb4d4c9c4c0289365755fa4b84dcf4c595f6db7e3c0e8294dda69e3d89613cce1c44519dac05c2f6a7bd57a3699d54cc22078a8dcc8
+        domain: authentication.cardinalcommerce.com
+        path: /
+        secure: true
+        httpOnly: true
+        hostOnly: true
+        creation: 2022-03-17T09:09:23.894Z
+        lastAccessed: 2022-04-08T09:25:07.404Z
+        id: "27884322530140637"
+      - key: __cfruid
+        value: d20f6d6d3607d41072a9e07ddd4f7c1c9c524f01-1649262469
+        domain: cardinalcommerce.com
+        path: /
+        secure: true
+        httpOnly: true
+        extensions:
+          - SameSite=None
+        hostOnly: false
+        creation: 2022-03-17T09:09:23.894Z
+        lastAccessed: 2022-04-06T16:27:48.655Z
+        id: "9969641872244324"
+      - key: JSESSIONID
+        value: BA50E25F6B07806E7747B70E2D07E57F
+        domain: www.jpayafrica.com
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2022-03-26T10:13:33.872Z
+        lastAccessed: 2022-10-06T09:09:13.044Z
+        id: "4149845626225157"
+      - key: JSESSIONID
+        value: 8DE62FF8B956F1058D5EEB0114112079
+        domain: localhost
+        path: /
+        httpOnly: true
+        hostOnly: true
+        creation: 2022-04-09T11:24:15.012Z
+        lastAccessed: 2022-10-06T08:47:57.998Z
+        id: "6928281953298447"
+      - key: XSRF-TOKEN
+        value: eyJpdiI6ImluL2VsYk8xYmJ3TVpEbWozVjJhM1E9PSIsInZhbHVlIjoieWQ4V2dtdWNYY2dGQ2NkNm5GUklUSjl5cGNZMGxya1NtWGx0Y0czQm0zVmtxRWl5YUo2WDRJREQrcTVBUEFtOGVCRnpyYlFlZHBJZFFoUnVqZng1aURmZjZ0U2RHVUIxR1VodzlsSnBFN0FOOGJ5MzUrVEFtd0JXSUtCVnBoUUwiLCJtYWMiOiJlNzM3MWZlYmI1NWE3ZjQ4MDlmZDM2MzlhNTAzZGQ1NThmZTUwNDA4YzI2Mzk2ODZjZGJmZWE1MmJmMTQ0NjBkIiwidGFnIjoiIn0%3D
+        expires: 2022-06-30T12:06:18.000Z
+        maxAge: 7200
+        domain: localhost
+        path: /
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-06-30T08:39:36.043Z
+        lastAccessed: 2022-06-30T10:06:18.463Z
+        id: "07133731671292676"
+      - key: jpay_session
+        value: eyJpdiI6IjdIa0EzR0ZyQTZ5cHhkZmc5SUsxQ1E9PSIsInZhbHVlIjoic0xTSXhxcHA3cjRxTFEzSXV0K0lyYnpnYTFKOFVTTVlUZThuei9VVVRNOVUvcklKNXZGcTczdWE2djVLK2tNemNremtoejUyUFhtdWxDTzY4MHpFQnY4cGhycFBjTG02b2d3c2R2OVlhQ0g5Nmx4OXppaDVDOXdWVGFWVTIzUEgiLCJtYWMiOiJiMTM0NTEzMmU2Zjc3ZWRmMGZjZWIzMmI0M2VhM2I1MzQxNmI2ODQ4MjNiNThjMGRlNjljZGMwMzVkMDYxMGVkIiwidGFnIjoiIn0%3D
+        expires: 2022-06-30T12:06:18.000Z
+        maxAge: 7200
+        domain: localhost
+        path: /
+        httpOnly: true
+        extensions:
+          - samesite=lax
+        hostOnly: true
+        creation: 2022-06-30T08:39:36.043Z
+        lastAccessed: 2022-06-30T10:06:18.464Z
+        id: "689372786970043"
+    _type: cookie_jar
+  - _id: spc_7c66879f4677445a92fa100bb81e73e3
+    parentId: wrk_ec1d1f50fa584426be7151c7c458365c
+    modified: 1641401029948
+    created: 1641401029948
+    fileName: test visa
+    contents: ""
+    contentType: yaml
+    _type: api_spec

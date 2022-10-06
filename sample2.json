@@ -1,0 +1,56 @@
+[{
+   "nom": "Zous",
+   "prenom": "Adrien",
+   "profession": "informaticien",
+   "age": 25,
+   "salaire":35
+
+},
+{
+   "nom": "Ducroc",
+   "prenom": "Mathilde",
+   "profession": "informaticien",
+   "age": 32,
+   "salaire":38
+
+},
+{
+   "nom": "Joy",
+   "prenom": "Bruno",
+   "profession": "comptable",
+   "age": 29,
+   "salaire":33
+
+},
+{
+   "nom": "Basr",
+   "prenom": "Julien",
+   "profession": "policier",
+   "age": 43,
+   "salaire":24
+
+},
+{
+   "nom": "Bouaz",
+   "prenom": "Teff",
+   "profession": "boulanger",
+   "age": 52,
+   "salaire":45
+
+},
+{
+   "nom": "Leroy",
+   "prenom": "Ben",
+   "profession": "comptable",
+   "age": 48,
+   "salaire":26
+
+},
+{
+   "nom": "Beroy",
+   "prenom": "Celine",
+   "profession": "boulanger",
+   "age": 28,
+   "salaire":37
+
+}]
